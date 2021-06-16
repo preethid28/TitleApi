@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="01159265b851478c8717414572feb7cf" Name="Diagram1">
+        <EntityTypeShape EntityType="TitlesModel.Award" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.Genre" Width="1.5" PointX="3.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.OtherName" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.Participant" Width="1.5" PointX="3.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.StoryLine" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.Title" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.TitleGenre" Width="1.5" PointX="6" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TitlesModel.TitleParticipant" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="TitlesModel.Award_FK_Award_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="TitlesModel.TitleGenre_FK_TitleGenre_Genre" ManuallyRouted="false" />
+        <AssociationConnector Association="TitlesModel.OtherName_FK_OtherName_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="TitlesModel.TitleParticipant_FK_TitleParticipant_Participant" ManuallyRouted="false" />
+        <AssociationConnector Association="TitlesModel.StoryLine_FK_StoryLine_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="TitlesModel.TitleGenre_FK_TitleGenre_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="TitlesModel.TitleParticipant_FK_TitleParticipant_Title" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
